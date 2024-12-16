@@ -1,0 +1,35 @@
+{
+    "LSP": {
+        "clients": {
+            "pyls": {
+                "enabled": true,
+                "command": ["pyls"],
+                "languageId": "python",
+                "scopes": ["source.python"],
+                "syntaxes": ["Packages/Python/Python.sublime-syntax"],
+            },
+            "pyright": {
+                "enabled": true,
+                "command": ["pyright-langserver", "--stdio"],
+                "languageId": "python",
+                "scopes": ["source.python"],
+                "syntaxes": ["Packages/Python/Python.sublime-syntax"],
+            },
+            "gopls": {
+                "enabled": true,
+                "command": ["gopls", "serve"],
+                "languageId": "go",
+                "scopes": ["source.go"],
+                "syntaxes": ["Packages/Go/Go.sublime-syntax"],
+            },
+        },
+    },
+    "font_size": 14,
+    "theme": "Default Dark.sublime-theme",
+    "color_scheme": "Monokai.sublime-color-scheme",
+    "ignored_packages":
+    [
+		"Vintage",
+    ],
+    "index_files": true,
+}
